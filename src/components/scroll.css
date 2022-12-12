@@ -1,0 +1,27 @@
+.scrollBoxWrap {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.scrollBoxWrap > div:nth-of-type(1) {
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 2.5rem;
+  background-color: #303560;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollBoxWrap > div:nth-of-type(1) > i {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 0.2rem;
+}
+.scrollBoxWrap > p:nth-of-type(1) {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
+  color: #303560;
+}/*# sourceMappingURL=scroll.css.map */
