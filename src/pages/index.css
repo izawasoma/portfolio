@@ -1,5 +1,5 @@
 .sectionTop {
-  padding: 2rem 0;
+  padding: 2rem 7%;
 }
 .sectionTop > .topSharpWrapper {
   width: 100%;
@@ -27,4 +27,33 @@
   font-weight: 300;
   line-height: 2.1rem;
   color: #585858;
+}
+
+.sectionLetsPuzzle {
+  background-color: #303560;
+  padding: 2rem 0 0 0;
+}
+.sectionLetsPuzzle > h2 {
+  padding: 0 7%;
+  font-size: 3.6rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  line-height: 5.4rem;
+  margin-top: 2rem;
+  color: white;
+}
+.sectionLetsPuzzle > p {
+  padding: 0 7%;
+  font-weight: 300;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  color: white;
+}
+.sectionLetsPuzzle > div {
+  width: 100%;
+  margin-top: 3rem;
+}
+.sectionLetsPuzzle > div > img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
