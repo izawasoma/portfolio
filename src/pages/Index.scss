@@ -28,6 +28,7 @@
         color: #585858;
     }
 }
+
 .sectionLetsPuzzle{
     background-color: #303560;
     padding: 2rem 0 0 0;
@@ -54,5 +55,35 @@
         & > img{
             width: 100%;
         }
+    }
+}
+
+.sectionPuzzles{
+    padding: 2rem 7%;
+    & > h2{
+        display: none;
+    }
+}
+
+.sectionAboutMe{
+    background-color: #FAF8EF;
+    padding: 2rem 7%;
+    & > h2{
+        font-size: 3.6rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bold;
+        line-height: 5.4rem;
+        margin-top: 2rem;
+    }
+}
+.sectionHistory{
+    background-color: #FAE37E;
+    padding: 2rem 7%;
+    & > h2{
+        font-size: 3.6rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bold;
+        line-height: 5.4rem;
+        margin-top: 2rem;
     }
 }
