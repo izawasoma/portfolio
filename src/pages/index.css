@@ -56,6 +56,8 @@
 }
 .sectionLetsPuzzle > div > img {
   width: 100%;
+  position: relative;
+  top: 0.5px;
 }
 
 .sectionPuzzles {
@@ -87,4 +89,81 @@
   font-weight: bold;
   line-height: 5.4rem;
   margin-top: 2rem;
+}
+
+.sectionMySkill {
+  background-color: #F2EACF;
+  padding: 2rem 7% 6rem 7%;
+}
+.sectionMySkill > h2 {
+  font-size: 3.6rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  line-height: 5.4rem;
+  margin-top: 2rem;
+}
+
+.sectionVision {
+  padding: 2rem 7% 6rem 7%;
+  position: relative;
+}
+.sectionVision > .frontBlock {
+  z-index: 1;
+  position: relative;
+}
+.sectionVision > .frontBlock > h2 {
+  font-size: 3.6rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  line-height: 5.4rem;
+  margin-top: 2rem;
+}
+.sectionVision > .frontBlock > h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 3.6rem;
+  margin-top: 2rem;
+}
+.sectionVision > .frontBlock > p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin-top: 3rem;
+  color: #202226;
+}
+.sectionVision > .backImagesWrapper {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  background-color: #303560;
+  left: 0;
+  top: 0;
+}
+.sectionVision > .backImagesWrapper > .star {
+  position: absolute;
+  top: 1rem;
+  right: 6.5rem;
+}
+.sectionVision > .backImagesWrapper > .pentagon {
+  position: absolute;
+  top: 6rem;
+  right: 14rem;
+}
+.sectionVision > .backImagesWrapper > .hexagon {
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
+}
+
+.sectionMind {
+  padding: 2rem 7% 6rem 7%;
+  background-color: #364B87;
+}
+.sectionMind > h2 {
+  font-size: 3.6rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  line-height: 5.4rem;
+  margin-top: 2rem;
+  color: white;
 }/*# sourceMappingURL=index.css.map */

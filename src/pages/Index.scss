@@ -54,6 +54,8 @@
         margin-top: 3rem;
         & > img{
             width: 100%;
+            position: relative;
+            top: 0.5px;
         }
     }
 }
@@ -86,4 +88,78 @@
         line-height: 5.4rem;
         margin-top: 2rem;
     }
+}
+.sectionMySkill{
+    background-color: #F2EACF;
+    padding: 2rem 7% 6rem 7%;
+    & > h2{
+        font-size: 3.6rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bold;
+        line-height: 5.4rem;
+        margin-top: 2rem;
+    }
+}
+.sectionVision{
+    padding: 2rem 7% 6rem 7%;
+    position: relative;
+    & > .frontBlock{
+        z-index: 1;
+        position: relative;
+        & > h2{
+            font-size: 3.6rem;
+            font-family: 'Exo 2', sans-serif;
+            font-weight: bold;
+            line-height: 5.4rem;
+            margin-top: 2rem;
+        }
+        & > h3{
+            font-size: 2.4rem;
+            font-weight: bold;
+            line-height: 3.6rem;
+            margin-top: 2rem;
+        }
+        & > p{
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 2.4rem;
+            margin-top: 3rem;
+            color: #202226;
+        }
+    }
+    & > .backImagesWrapper{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+        background-color: #303560;
+        left: 0;
+        top: 0;
+        & > .star{
+            position: absolute;
+            top: 1rem;
+            right: 6.5rem;
+        }
+        & > .pentagon{
+            position: absolute;
+            top: 6rem;
+            right: 14rem;
+        }
+        & > .hexagon{
+            position: absolute;
+            top: 9rem;
+            right: 2rem;
+        }
+    }
+}
+.sectionMind{
+    & > h2{
+        font-size: 3.6rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bold;
+        line-height: 5.4rem;
+        margin-top: 2rem;
+        color: white;
+    }
+    padding: 2rem 7% 6rem 7%;
+    background-color: #364B87;
 }

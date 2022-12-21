@@ -8,6 +8,9 @@ import door from "./../images/svg/door.svg";
 import indexPuzzle1 from "./../images/svg/indexPuzzle1.svg";
 import indexPuzzle2 from "./../images/svg/indexPuzzle2.svg";
 import indexPuzzle3 from "./../images/svg/indexPuzzle3.svg";
+import star from "./../images/svg/star.svg";
+import pentagon from "./../images/svg/pentagon.svg";
+import hexagon from "./../images/svg/hexagon.svg";
 
 /* コンポーネント */
 import { Scroll } from "./../components/Scroll";
@@ -17,6 +20,9 @@ import { ProfileBoxImage } from "./../components/ProfileBoxImage";
 import { ProfileBoxListS } from "./../components/ProfileBoxListS";
 import { ProfileBoxListL } from "./../components/ProfileBoxListL";
 import { HistoryCard } from "./../components/HistoryCard";
+import { SkillsBox } from "./../components/SkillsBox";
+import { SkillsCard } from "./../components/SkillsCard";
+import { MindBox } from "./../components/MindBox";
 
 export const Index = () => {
   return (
@@ -121,6 +127,61 @@ export const Index = () => {
           year="2022"
           date="08.01"
           discription="PHP（Laravel）、Bootstrap5.0を用いた社内システム作成を行っています。日報管理システムを作成しました。"
+        />
+      </section>
+      <section className="sectionMySkill">
+        <h2>Skills</h2>
+        <SkillsBox>
+          <SkillsCard skillName="MySQL" skillLevel="5" />
+          <SkillsCard skillName="PHP" skillLevel="5" />
+          <SkillsCard skillName="Laravel" skillLevel="4" />
+          <SkillsCard skillName="HTML,CSS" skillLevel="5" />
+          <SkillsCard skillName="Git,Github" skillLevel="4" />
+          <SkillsCard skillName="PhotoShop" skillLevel="5" />
+          <SkillsCard skillName="Illustrator" skillLevel="4" />
+          <SkillsCard skillName="Node.js" skillLevel="3" />
+          <SkillsCard skillName="PostgreSQL" skillLevel="4" />
+          <SkillsCard skillName="Heroku" skillLevel="3" />
+          <SkillsCard skillName="React" skillLevel="3" />
+          <SkillsCard skillName="Angular" skillLevel="3" />
+          <SkillsCard skillName="Java" skillLevel="2" />
+          <SkillsCard skillName="Swift" skillLevel="1" />
+        </SkillsBox>
+      </section>
+      <section className="sectionVision">
+        <div className="frontBlock">
+          <h2>Vision</h2>
+          <h3>
+            人を笑顔にするものを<br/>作りたい。
+          </h3>
+          <p>
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+          </p>
+          <h3>
+            人を笑顔にするものを<br/>作りたい。
+          </h3>
+          <p>
+            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+          </p>
+        </div>
+        <div className="backImagesWrapper">
+          <img src={star} alt="star" className="star" />
+          <img src={pentagon} alt="pentagon" className="pentagon" />
+          <img src={hexagon} alt="hexagon" className="hexagon" />
+        </div>
+      </section>
+      <section className="sectionMind">
+        <h2>Mind</h2>
+        <MindBox
+          no="01"
+          title="要求を超えてゆく"
+          discription="私の通う学校では学習内容に対して、作品を提出するという形で習熟度を測定します。
+          これらは課題と呼ばれ、「PHPで掲示板サイトを作る」「カフェの紹介を作成する」など様々な内容の物を扱います。
+          これらの課題には「仕様」が提示され、使用さえ満たせば承認となりますが、私はそれでは「ただの作業になってしまう」
+          と考え、仕様には無い部分までこだわって作品として提出するようにして来ました。掲示板サイトであれば、
+          ソースコードだけではなく、見た目を意識してみたり、カフェの紹介サイトであれば、見に来てくれた人が
+          ワクワクするような仕掛けを考えてみたり。仕様にない部分を考えることで周りの学生よりも高い習熟度で
+          学習して来ました。"
         />
       </section>
     </>
