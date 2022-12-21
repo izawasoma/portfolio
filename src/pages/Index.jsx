@@ -78,14 +78,14 @@ export const Index = () => {
           title="チームラボ様"
           subtitle="インターン"
           year="2022"
-          date="08.01"
+          date="07.19"
           discription="Javaを用いた保守業務。既存のシステムにCSVダウンロードの機能を実装しました。（期間２週間）"
         />
         <HistoryCard
           title="クオリティソフト様"
           subtitle="インターン"
           year="2022"
-          date="08.01"
+          date="10.03"
           discription="Angular・TypeScriptを用いた保守業務。APIから取得したデータを元にグラフを描画したり、設定値をPOST送信したり。最後には単体テストも実施。
           （期間１ヶ月）"
         />
@@ -93,7 +93,7 @@ export const Index = () => {
           title="c-tag様"
           subtitle="アルバイト"
           year="2022"
-          date="08.01"
+          date="08.10"
           discription="PHP（Laravel）、Bootstrap5.0を用いた社内システム作成を行っています。日報管理システムを作成しました。"
         />
       </section>
