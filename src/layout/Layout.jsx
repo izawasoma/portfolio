@@ -22,9 +22,7 @@ export const Layout = () => {
       <main>
         <Router />
       </main>
-      <footer>
-        footer
-      </footer>
+      <footer>© 2022 izawasoma</footer>
     </>
   )
 }
