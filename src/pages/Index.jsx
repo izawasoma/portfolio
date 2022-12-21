@@ -4,13 +4,10 @@ import React from "react";
 import "./index.css";
 /* コンテンツファイル */
 import topSharp from "./../images/svg/top_sharp.svg";
-import door from "./../images/svg/door.svg";
-import indexPuzzle1 from "./../images/svg/indexPuzzle1.svg";
-import indexPuzzle2 from "./../images/svg/indexPuzzle2.svg";
-import indexPuzzle3 from "./../images/svg/indexPuzzle3.svg";
 import star from "./../images/svg/star.svg";
 import pentagon from "./../images/svg/pentagon.svg";
 import hexagon from "./../images/svg/hexagon.svg";
+import myPicture from "./../images/jpg/my_picture.jpeg"
 
 /* コンポーネント */
 import { Scroll } from "./../components/Scroll";
@@ -38,44 +35,15 @@ export const Index = () => {
         <p>
           こんにちは。<br/>
           伊澤聡真のポートフォリオへようこそ。<br/>
-          せっかくですし、まずは私と遊びませんか？
+          ぜひゆっくりしていってくださいね！
         </p>
         <Scroll></Scroll>
-      </section>
-      <section className="sectionLetsPuzzle">
-        <h2>Let’s Puzzle !!!</h2>
-        <p>
-          ようこそ、<br/>
-          伊澤聡真のポートフォリオへ。<br/>
-          <br/>
-          このポートフォリオの１ページの中にはたくさんの謎が仕掛けられています。<br/>
-          <br/>
-          全ての謎を解き明かして、鍵を見つけて、下の扉を開ければあなたの勝ちです。
-        </p>
-        <div>
-          <img src={door} alt="door" />
-        </div>
-      </section>
-      <section className="sectionPuzzles">
-        <h2>puzzles</h2>
-        <IndexPuzzle
-          img={indexPuzzle1}
-          imgAlt="問題1"
-        ></IndexPuzzle>
-        <IndexPuzzle
-          img={indexPuzzle2}
-          imgAlt="問題2"
-        ></IndexPuzzle>
-        <IndexPuzzle
-          img={indexPuzzle3}
-          imgAlt="問題3"
-        ></IndexPuzzle>
       </section>
       <section className="sectionAboutMe">
         <h2>About Me</h2>
         <ProfileBox>
           <ProfileBoxImage
-            src={indexPuzzle1}
+            src={myPicture}
             alt="alt"
           ></ProfileBoxImage>
           <ProfileBoxListS
@@ -152,16 +120,22 @@ export const Index = () => {
         <div className="frontBlock">
           <h2>Vision</h2>
           <h3>
-            人を笑顔にするものを<br/>作りたい。
+            人に知られ、誇れる作品を<br/>生み出したい。
           </h3>
           <p>
-            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+            「あの作品ってお前が作ってたの！？」って言われるような作品を作る事が夢です。多くの人に知られ使われるということは需要があり、色々な人に愛されると言うことです。将来はそんなサービスを提案できる企画エンジニアになりたいです。
           </p>
           <h3>
             人を笑顔にするものを<br/>作りたい。
           </h3>
           <p>
-            この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、
+            「上から下にスクロールすると１つの物語になっている」「カメラをかざすだけで翻訳されたり、検索される」…といった「新しいもの」や「仕掛けのあるもの」には人が「楽しい」「面白い」「すごい」などの心を動かすワクワクの種があります。そういった技術や企画に携わる仕事がしたいです。
+          </p>
+          <h3>
+            Webシステムで人を集めて<br/>イベントを開きたい。
+          </h3>
+          <p>
+            高校生の時にはパワーポイントやお絵かきソフトを使って謎解きイベントを。専門学校ではWebシステムを使ってクイズ大会を行いました。今後もITを使ったイベントを開いていろんな人たちと交流できる場を開いていきたいです。（Youtubeとかで番組作れないかなぁ…）
           </p>
         </div>
         <div className="backImagesWrapper">
@@ -174,14 +148,18 @@ export const Index = () => {
         <h2>Mind</h2>
         <MindBox
           no="01"
-          title="要求を超えてゆく"
-          discription="私の通う学校では学習内容に対して、作品を提出するという形で習熟度を測定します。
-          これらは課題と呼ばれ、「PHPで掲示板サイトを作る」「カフェの紹介を作成する」など様々な内容の物を扱います。
-          これらの課題には「仕様」が提示され、使用さえ満たせば承認となりますが、私はそれでは「ただの作業になってしまう」
-          と考え、仕様には無い部分までこだわって作品として提出するようにして来ました。掲示板サイトであれば、
-          ソースコードだけではなく、見た目を意識してみたり、カフェの紹介サイトであれば、見に来てくれた人が
-          ワクワクするような仕掛けを考えてみたり。仕様にない部分を考えることで周りの学生よりも高い習熟度で
-          学習して来ました。"
+          title="常にアソビゴコロを。"
+          discription="子供も大人も熱中できるものには必ず「楽しい」「面白い」と思う要素がどこかにあると思います。作品を作る時には、できる限りそういった要素を詰め込められないかを考えるようにしています。"
+        />
+        <MindBox
+          no="02"
+          title="常にチャレンジを。"
+          discription="今まで、謎解きイベントを何度か開催して来ましたが、クラス、学内、一般向けと規模のステップアップに挑戦してきました。普段の学習も同じく前回を超える何かを求めて行動するようにしています。"
+        />
+        <MindBox
+          no="03"
+          title="常に学ぶ姿勢を。"
+          discription="「学ぶ」は「真似る」に語源があると言いますが、先生や先輩の意見は逃さず「メモ」して行動に移すように心がけています。"
         />
       </section>
     </>

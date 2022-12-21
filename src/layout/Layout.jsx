@@ -15,9 +15,9 @@ export const Layout = () => {
           <img className="logo" src={logo} alt="logo" />
           <h1>Izawa's Portfolio</h1>
         </div>
-        <div id="headerButton">
+        {/* <div id="headerButton">
           <i class="fa-solid fa-bars"></i>
-        </div>
+        </div> */}
       </header>
       <main>
         <Router />
