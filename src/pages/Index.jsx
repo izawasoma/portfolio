@@ -11,7 +11,6 @@ import myPicture from "./../images/jpg/my_picture.jpeg"
 
 /* コンポーネント */
 import { Scroll } from "./../components/Scroll";
-import { IndexPuzzle } from "./../components/IndexPuzzle";
 import { ProfileBox } from "./../components/ProfileBox";
 import { ProfileBoxImage } from "./../components/ProfileBoxImage";
 import { ProfileBoxListS } from "./../components/ProfileBoxListS";
@@ -28,48 +27,60 @@ export const Index = () => {
         <div className="topSharpWrapper">
           <img src={topSharp} alt="topSharp" />
         </div>
-        <h2>
-          hELLO!!!!
-        </h2>
-        <p>Welcome to MyRoom !!</p>
-        <p>
-          こんにちは。<br/>
-          伊澤聡真のポートフォリオへようこそ。<br/>
-          ぜひゆっくりしていってくださいね！
-        </p>
+        <div>
+          <h2>
+            hELLO!!!!
+          </h2>
+          <p>Welcome to MyRoom !!</p>
+          <p>
+            こんにちは。<br/>
+            伊澤聡真のポートフォリオへようこそ。<br/>
+            ぜひゆっくりしていってくださいね！
+          </p>
+        </div>
         <Scroll></Scroll>
       </section>
       <section className="sectionAboutMe">
         <h2>About Me</h2>
         <ProfileBox>
-          <ProfileBoxImage
-            src={myPicture}
-            alt="alt"
-          ></ProfileBoxImage>
-          <ProfileBoxListS
-            title="名前"
-            discription="伊澤聡真"
-          />
-          <ProfileBoxListS
-            title="年齢"
-            discription="23歳"
-          />
-          <ProfileBoxListS
-            title="出身地"
-            discription="和歌山県"
-          />
-          <ProfileBoxListL
-            title="趣味"
-            discription="最近、ハマっていることは「リアル脱出ゲームに参加すること」。脱出ゲームへの参加回数は60回。どのくらいハマっているかというと、週５でサウナに行く人程度の熱狂度合。"
-          />
-          <ProfileBoxListL
-            title="特技"
-            discription="パズル作家としても活動中。株式会社ニコリ（ナンプレを作った会社）の季刊誌にて新作パズルをいくつも生み出し掲載された。"
-          />
-          <ProfileBoxListL
-            title="好きなもの・コト"
-            discription="芝犬、ラジオ、サカナクション、クイズ番組、ドラゴンクエスト、僕のヒーローアカデミア、ガリレオ（ドラマ）、水曜どうでしょう"
-          />
+          <div>
+            <ProfileBoxImage
+              src={myPicture}
+              alt="alt"
+            ></ProfileBoxImage>
+          </div>
+          <div>
+            <ProfileBoxListS
+              title="名前"
+              discription="伊澤聡真"
+            />
+            <ProfileBoxListS
+              title="年齢"
+              discription="23歳"
+            />
+            <ProfileBoxListS
+              title="出身地"
+              discription="和歌山県"
+            />
+            <ProfileBoxListL
+              title="趣味"
+              discription="最近、ハマっていることは「リアル脱出ゲームに参加すること」。脱出ゲームへの参加回数は60回。どのくらいハマっているかというと、週５でサウナに行く人程度の熱狂度合。"
+            />
+            <ProfileBoxListL
+              title="特技"
+              discription="パズル作家としても活動中。株式会社ニコリ（ナンプレを作った会社）の季刊誌にて新作パズルをいくつも生み出し掲載された。"
+            />
+          </div>
+          <div>
+            <ProfileBoxListL
+              title="好きなもの・コト"
+              discription="芝犬、ラジオ、サカナクション、クイズ番組、ドラゴンクエスト、僕のヒーローアカデミア、ガリレオ（ドラマ）、水曜どうでしょう"
+            />
+            <ProfileBoxListL
+              title="大事なモノ"
+              discription="愛犬の芝犬。小学校の頃から犬を飼うことに憧れて、高校卒業後に念願の芝犬デビュー。名前は「ポン太」。よく食べ、よく遊ぶ元気な男の子だけど、家の中でも、外でもお構いなくマーキングをする癖が難点（しつけ失敗）。"
+            />
+          </div>
         </ProfileBox>
       </section>
       <section className="sectionHistory">
