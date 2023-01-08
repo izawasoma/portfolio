@@ -1,6 +1,6 @@
 .sectionTop {
-  height: 95vh;
-  padding: 2rem 7%;
+  height: 90vh;
+  padding: 2rem 7% 4rem 7%;
 }
 .sectionTop > .topSharpWrapper {
   width: 100%;
@@ -34,7 +34,7 @@
   .sectionTop {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80vh 15vh;
+    grid-template-rows: 75vh 15vh;
     padding: 0 12%;
   }
   .sectionTop > .topSharpWrapper {
@@ -108,9 +108,23 @@
   position: relative;
   top: 0.5px;
 }
+.sectionLetsPuzzle .doorWeb {
+  display: none;
+}
+.sectionLetsPuzzle .doorPhone {
+  display: block;
+}
 
+@media screen and (min-width: 960px) {
+  .sectionLetsPuzzle .doorWeb {
+    display: block;
+  }
+  .sectionLetsPuzzle .doorPhone {
+    display: none;
+  }
+}
 .sectionPuzzles {
-  padding: 2rem 7%;
+  padding: 2rem 7% 4rem 7%;
 }
 .sectionPuzzles > h2 {
   display: none;
@@ -123,7 +137,7 @@
 }
 .sectionAboutMe {
   background-color: #FAF8EF;
-  padding: 2rem 7%;
+  padding: 2rem 7% 4rem 7%;
 }
 .sectionAboutMe > h2 {
   font-size: 3.6rem;
@@ -141,7 +155,7 @@
 }
 .sectionHistory {
   background-color: #FAE37E;
-  padding: 2rem 7%;
+  padding: 2rem 7% 4rem 7%;
 }
 .sectionHistory > h2 {
   font-size: 3.6rem;
@@ -262,6 +276,11 @@
     top: 0;
     left: auto;
   }
+  .sectionVision > .backImagesWrapperFront {
+    right: 12%;
+    top: 0;
+    left: auto;
+  }
 }
 .sectionMind {
   padding: 2rem 7% 6rem 7%;
@@ -302,6 +321,13 @@
   color: #585858;
 }
 
+@media screen and (min-width: 960px) {
+  .sectionGameclear > img {
+    width: 40%;
+    display: block;
+    margin: 1rem auto;
+  }
+}
 .fill_red {
   fill: #DD7840;
 }

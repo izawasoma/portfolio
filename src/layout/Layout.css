@@ -1,8 +1,7 @@
 header {
   padding: 0 7%;
   width: 100%;
-  min-height: 6rem;
-  height: 5vh;
+  height: 10vh;
   background-color: rgb(255, 255, 255);
   border-radius: 0 0rem 0.8rem 0.8rem;
   box-shadow: 0px 4px 10px 0px #e0e0e0;
@@ -43,6 +42,8 @@ header > #headerButton > i {
 @media screen and (min-width: 960px) {
   header {
     padding: 0 12%;
+    min-height: 0;
+    height: 10vh;
   }
 }
 main {

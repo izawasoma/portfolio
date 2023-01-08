@@ -7,7 +7,8 @@ import topSharp from "./../images/svg/top_sharp.svg";
 import myPicture from "./../images/jpg/my_picture.jpeg"
 import myPicture2 from "./../images/jpg/my_picture2.jpg"
 import myPicture3 from "./../images/jpg/my_picture3.jpeg"
-import door from "./../images/svg/door.svg";
+import doorPhone from "./../images/svg/door.svg";
+import doorWeb from "./../images/svg/door-web.svg";
 import indexPuzzle1 from "./../images/png/nazo1.png";
 import indexPuzzle2 from "./../images/png/nazo2.png";
 import indexPuzzle3 from "./../images/png/nazo3.png";
@@ -140,8 +141,11 @@ export const Index = () => {
         <br/>
         全ての謎を解き明かして、鍵を見つけて、下の扉を開ければあなたの勝ちです。<br/>
         </p>
-        <div>
-          <img src={door} alt="" />
+        <div className="doorPhone">
+          <img src={doorPhone} alt="" />
+        </div>
+        <div className="doorWeb">
+          <img src={doorWeb} alt="" />
         </div>
       </section>
       <section className="sectionPuzzles">

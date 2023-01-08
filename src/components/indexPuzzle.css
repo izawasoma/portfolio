@@ -66,6 +66,15 @@
           animation-iteration-count: 1;
 }
 
+@media screen and (min-width: 960px) {
+  .indexPuzzle > .imgWrap {
+    height: 20rem;
+  }
+  .indexPuzzle > .imgWrap > img {
+    width: auto;
+    height: 100%;
+  }
+}
 @-webkit-keyframes inCorrect {
   0% {
     transform: translate(0);
@@ -83,7 +92,6 @@
     transform: translate(0);
   }
 }
-
 @keyframes inCorrect {
   0% {
     transform: translate(0);
