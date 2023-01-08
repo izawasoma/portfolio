@@ -28,6 +28,9 @@
         font-size: 2.4rem;
         font-weight: 500;
         color: white;
+        & > span{
+            font-size: 2.4rem;
+        }
     }
     p{
         padding: 0 1.5rem;
@@ -38,4 +41,8 @@
         font-size: 1.6rem;
         line-height: 2.4rem;
     }
+}
+
+.red{
+    color: red;
 }

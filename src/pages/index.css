@@ -224,6 +224,34 @@
   top: 9rem;
   right: 2rem;
 }
+.sectionVision > .backImagesWrapperFront {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.sectionVision > .backImagesWrapperFront > .star {
+  position: absolute;
+  top: 1rem;
+  right: 6.5rem;
+  width: 86px;
+  height: 84px;
+}
+.sectionVision > .backImagesWrapperFront > .pentagon {
+  position: absolute;
+  top: 6rem;
+  right: 14rem;
+  width: 82.753px;
+  height: 82.753px;
+}
+.sectionVision > .backImagesWrapperFront > .hexagon {
+  position: absolute;
+  top: 9rem;
+  right: 2rem;
+  width: 81.833px;
+  height: 75.91px;
+}
 
 @media screen and (min-width: 960px) {
   .sectionVision {
@@ -252,4 +280,36 @@
   .sectionMind {
     padding: 2rem 12% 6rem 12%;
   }
+}
+.sectionGameclear {
+  width: 100%;
+}
+.sectionGameclear > h2 {
+  font-size: 3.6rem;
+  font-family: "Exo 2", sans-serif;
+  font-weight: bold;
+  line-height: 5.4rem;
+}
+.sectionGameclear > img {
+  width: 100%;
+  margin: 1rem 0;
+}
+.sectionGameclear > p {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+  color: #585858;
+}
+
+.fill_red {
+  fill: #DD7840;
+}
+
+.fill_yellow {
+  fill: #F4DB68;
+}
+
+.fill_blue {
+  fill: #5C7DD3;
 }/*# sourceMappingURL=Index.css.map */

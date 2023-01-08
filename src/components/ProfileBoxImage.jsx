@@ -3,6 +3,9 @@ import "./profileBoxImage.css";
 
 export const ProfileBoxImage = (props) => {
   return (
-    <img className="profileBoxImage" src={props.src} alt={props.alt} />
+    <div className="profileBoxImageWrapper">
+      <div className="hand" onClick={props.clickEvent}></div>
+      <img className="profileBoxImage" src={props.src} alt={props.alt} />
+    </div>
   )
 }
