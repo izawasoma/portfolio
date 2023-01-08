@@ -145,9 +145,9 @@ export const Index = () => {
         </div>
       </section>
       <section className="sectionPuzzles">
-        <IndexPuzzle img={indexPuzzle1} answer="07734" placeholder="半角数字で入力" hint="の　こ　か" />
-        <IndexPuzzle img={indexPuzzle2} answer="たか" placeholder="ひらがなで入力" hint="な　ぶ　ぎ" />
-        <IndexPuzzle img={indexPuzzle3} answer="こんぶ" placeholder="ひらがなで入力" hint="か　し　は"/>
+        <IndexPuzzle img={indexPuzzle1} answer="07734" placeholder="半角数字５桁で回答" hint="たごのこか" />
+        <IndexPuzzle img={indexPuzzle2} answer="なすび" placeholder="ひらがな３文字で回答" hint="たかなぶぎ" />
+        <IndexPuzzle img={indexPuzzle3} answer="こんぶ" placeholder="ひらがな３文字で回答" hint="けいかしは"/>
       </section>
       <section className="sectionAboutMe">
         <h2>About Me</h2>
