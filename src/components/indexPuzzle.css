@@ -20,6 +20,11 @@
 .indexPuzzle > .imgWrap > img {
   width: 90%;
 }
+.indexPuzzle > .hintBox {
+  text-align: justify;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
 .indexPuzzle > .formWrap {
   width: 100%;
   height: 4.8rem;
@@ -44,4 +49,101 @@
   font-size: 1.6rem;
   color: white;
   font-weight: 700;
+}
+.indexPuzzle .inCorrect {
+  background-color: rgb(255, 214, 214);
+  -webkit-animation-name: inCorrect;
+          animation-name: inCorrect;
+  -webkit-animation-duration: 0.1s;
+          animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+.indexPuzzle .boing {
+  -webkit-animation: 0.8s boing-anim linear;
+          animation: 0.8s boing-anim linear;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes inCorrect {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(2px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(-2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes inCorrect {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(2px);
+  }
+  50% {
+    transform: translate(0);
+  }
+  75% {
+    transform: translate(-2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@-webkit-keyframes boing-anim {
+  10% {
+    transform: scale(1.1, 0.9);
+  }
+  40% {
+    transform: scale(1.2, 0.8);
+  }
+  50% {
+    transform: scale(0.85, 1.15);
+  }
+  60% {
+    transform: scale(1.1, 0.9);
+  }
+  70% {
+    transform: scale(0.95, 1.08);
+  }
+  90% {
+    transform: scale(0.98, 1.02);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boing-anim {
+  10% {
+    transform: scale(1.1, 0.9);
+  }
+  40% {
+    transform: scale(1.2, 0.8);
+  }
+  50% {
+    transform: scale(0.85, 1.15);
+  }
+  60% {
+    transform: scale(1.1, 0.9);
+  }
+  70% {
+    transform: scale(0.95, 1.08);
+  }
+  90% {
+    transform: scale(0.98, 1.02);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }/*# sourceMappingURL=indexPuzzle.css.map */
