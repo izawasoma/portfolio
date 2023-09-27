@@ -1,16 +1,14 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Index } from "./../pages/Index";
-import { Works } from "./../pages/Works";
+import { Test } from "../pages/Test";
 
 export const Router = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path={`/`} element={<Index />} />
-        <Route path={`/works`} element={<Works />} />
-        <Route path={`/*`} element="" />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path={`/`} element={<Index />} />
+      <Route path={`/test`} element={<Test />} />
+      <Route path={`/*`} element="" />
+    </Routes>
   )
 }

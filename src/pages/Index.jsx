@@ -200,6 +200,13 @@ export const Index = () => {
       <section className="sectionHistory">
         <h2>History</h2>
         <HistoryCard
+          title="c-tag様"
+          subtitle="アルバイト"
+          year="2022"
+          date="06.10"
+          discription="PHP（Laravel）、Bootstrap5.0を用いた社内システム作成を行っています。日報管理システムを作成しました。"
+        />
+        <HistoryCard
           title="チームラボ様"
           subtitle="インターン"
           year="2022"
@@ -213,13 +220,6 @@ export const Index = () => {
           date="10.03"
           discription="Angular・TypeScriptを用いた保守業務。APIから取得したデータを元にグラフを描画したり、設定値をPOST送信したり。最後には単体テストも実施。
           （期間１ヶ月）"
-        />
-        <HistoryCard
-          title="c-tag様"
-          subtitle="アルバイト"
-          year="2022"
-          date="08.10"
-          discription="PHP（Laravel）、Bootstrap5.0を用いた社内システム作成を行っています。日報管理システムを作成しました。"
         />
       </section>
       <section className="sectionMySkill">
